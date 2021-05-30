@@ -1,0 +1,80 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: burlywood;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+button {
+    width: 120px;
+    height: 70px;
+    margin: 0 5px;
+    border-radius: 10px;
+    border-width: 2px;
+}
+
+.hidden {
+    display: none!important;
+}
+
+.input {
+    border-radius: 50px;
+    border-width: 0px;
+    width: 300px;
+    height: 50px;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+#title {
+    margin: 40px 0;
+}
+
+.content {
+    margin-top: 100px;
+}
+
+.statusLeft {
+    list-style: none;
+    text-align: left;
+}
+
+.statusRight {
+    list-style: none;
+    text-align: right;
+}
+
+.stats-container {
+    display: inline-flex;
+    margin-left: -48px;
+}
+
+#petStatsTitle {
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.action-btn {
+    pass
+}
+
+.passive-btn {
+    pass
+}
+
+.your-pet-img {
+    width: 200px;
+}

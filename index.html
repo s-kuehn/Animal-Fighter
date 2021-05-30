@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Fighter</title>
+
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <div class="content">
+        <h1 id="title">Animal Fighter</h1>
+
+        <h3 id="dispTxt">What would you like to name your pet?</h3>
+
+        <input class="input" type="text" placeholder="Enter your commands here:">
+
+        <div class="action-btns hidden">
+            <button class="action-btn" id="attack-btn">ATTACK</button>
+            <button class="action-btn" id="run-btn">RUN</button>
+        </div>
+
+        <div class="passive-btns hidden">
+            <button class="passive-btn" id="stats-btn">STATS</button>
+            <button class="passive-btn" id="rest-btn">REST</button>
+            <button class="passive-btn" id="battle-btn">BATTLE ARENA</button>
+        </div>
+
+        <img class="your-pet-img hidden" src="/img/yourPet.png" alt="">
+
+        <h4 id="petStatsTitle"></h4>
+
+        <div class="stats-container">
+            <ul class="statusLeft hidden">
+                <li>NAME:</li>
+                <li>HP:</li>
+                <li>LVL:</li>
+                <li>XP:</li>
+            </ul>
+
+            <ul class="statusRight hidden"></ul>
+        </div>
+
+
+    </div>
+
+    <button class="hidden" id="back-btn">BACK</button>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
